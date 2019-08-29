@@ -1,25 +1,77 @@
 body {
     font-family: arial;
-    color: #777;
+    color: white;
     background-color: #777;
     width: 960px;
     font-size: 18px;
+    text-align: center;
 }
 
-header, nav, section, aside, footer {
-    background-color: #ebebeb;
+.header {
+    clear:both;
+    padding:25px;
+    background-color:gray;
+    margin-top: 10px;;
+    margin-bottom:10px;
+    text-align:center;
 }
 
-article {
-    color: #ebebeb;
-    background-color: #777;
+.nav {
+    clear:both;
+    padding:25px;
+    background-color:gray;
+    margin-top: 10px;
+    margin-bottom:20px;
+    text-align:center;
 }
 
-h1, p {
-    color: #777;
-    background: #ebebeb;
+.aside {
+    float:right;
+    background-color:gray;
+    padding:20px;
+    width:46%;
+    text-align:center;
+    box-sizing: border-box;
+    height:155px;
+    margin-right: 0px;
 }
 
-section {
-    width: 495px;
+.section {
+    background-color:gray;
+    padding:20px;
+    width:495px;
+    height: 155px;
+    text-align:center;
+    box-sizing:border-box;
+}
+
+.article {
+    background-color: white;
+    padding:5px;
+    color: black;
+    box-sizing:border-box;
+}
+
+.headergroup {
+ background-color: black;
+ color: white;
+}
+
+.p {
+    background-color:black;
+    padding:5px;
+    color:white;
+    box-sizing:border-box;
+    margin-top:10px;
+
+}
+
+.footer {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    height: 100px;
 }
